@@ -1,0 +1,150 @@
+@charset "utf-8";
+*{	
+	font-family:  Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 11px;
+}
+html{
+	width: 100%;
+	height:100%;
+	background-color: #f7f7f7;
+}
+body{
+	width: 742px;
+	width: inherit;
+	height:inherit;
+}
+#wrapper{
+	background-color: white;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin: auto;
+	width: 740px;
+
+}
+p{
+	color: #212121 ;
+	font-size: 10px;
+	font-style: normal;
+}
+h1{
+
+	font-family: Futura Extra Black, sans-serif;
+	font-style: italic;
+	color: #666666;
+	font-weight: 900;
+
+	font-size: 12px;
+}
+h2{
+	font-family: Futura Extra Black, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 900;
+}
+h3{
+	font-family: Futura, sans-serif;
+	font-size: 16px;
+}
+h4{
+	font-family: Futura, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+h5{
+	font-family: Futura Extra Black, sans-serif;
+	font-size: 20px;
+	color: red;
+	text-align: center;
+}
+
+nav{
+	margin-bottom: 2px;
+	line-height: 0;
+	background-color: #e3e4dc;
+}
+nav ul{
+	height: 40px;
+	border-bottom: 1px solid grey;
+	width: 100%;
+}
+nav ul li{
+	
+	/*margin-right: -2px;  skal bruges hvis der skal være border sjov på*/
+	width: 14.2%;
+	height: inherit;
+    display:inline-block;
+
+}
+nav ul li:hover{
+	background-color: black;
+	color:white
+}
+nav ul li a{
+	color: #212121;
+	text-decoration: none;
+	line-height: 38px;
+	height: 34px;
+	margin: 3px 0 0 -1px;
+	display: block;
+	text-align: center;
+	border-left: 1px solid #cccccc;
+}
+
+nav>ul>li:first-child>a{
+	border:none;
+}
+
+ul.types{
+	background-color: #e6e8df;
+	height: 30px;
+}
+ul.types>li{
+width: 19.5%;
+}
+ul.types>li:hover{
+	background-color: darkgrey;
+}
+ul.types>li>a{
+	line-height: 26px;
+	height: 22px;
+}
+form#login{
+	line-height: 30px;
+	width: 300px;
+	margin: auto;
+	padding: 50px 0;
+	
+}
+form#login>label, label{
+	font-weight: bold;
+	min-width: 100px;
+	display: inline-block;
+}
+form#login>input{
+	border: 2px solid #333333;
+}
+form#login>input[type="submit"]{
+	width: 100px;
+	text-align: center;
+	margin: 5px auto;
+	display: block;
+	font-weight: bold;
+
+}
+
+
+textarea{
+	vertical-align: top;
+}
+
+section{
+	padding: 4px;
+}
+section>form>img{
+	max-height: 150px;
+	max-width: 150px;
+}
